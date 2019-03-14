@@ -1,7 +1,9 @@
 #titulo-layout{
     background-color:rgb(238,238,238); border-top:1px solid black ;border-bottom: 1px solid black; font-size:20px; 
 }
-
+#borda-bottom{
+    border-bottom: 1px solid black;
+}
 #pular-linha{
     display: block;
 }
@@ -20,4 +22,12 @@
 
 #rodape{
     background-color: rgb(62,62,62); height: 150px;
+}
+
+#borda-bottom{
+    border-bottom: 1px solid black;
+}
+
+#quebra-line{
+    margin-top: 20px;
 }
