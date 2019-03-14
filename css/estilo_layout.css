@@ -1,7 +1,16 @@
 #titulo-layout{
-    background-color:rgb(238,238,238); border-top:1px solid black ;border-bottom: 1px solid black; font-size:20px; 
+    background-color:rgb(238,238,238); 
+    border-top:1px solid black ;
+    border-bottom: 1px solid black;
+}
+#titulo-layout h1{
+    font-size:20px; 
+    margin-left: 1px;
 }
 
+#navbar{
+    background-color: #f8f9fa;
+}
 #pular-linha{
     display: block;
 }
