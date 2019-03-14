@@ -1,0 +1,23 @@
+#titulo-layout{
+    background-color:rgb(238,238,238); border-top:1px solid black ;border-bottom: 1px solid black; font-size:20px; 
+}
+
+#pular-linha{
+    display: block;
+}
+#conteudo{
+    height:1000px;
+}
+#entre-em-contato{
+    background-color:rgb(238,238,238);
+}
+#entre-em-contato p {
+    font-size: 15px;
+}
+#botao-entre-em-contato{
+    background-color:rgb(62,62,62);
+}
+
+#rodape{
+    background-color: rgb(62,62,62); height: 150px;
+}

@@ -1,14 +1,11 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-  <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-
+  <link rel="stylesheet" href="../css/estilo_layout.css">
   <title>Layout</title>
 
 </head>
@@ -16,7 +13,7 @@
 <body>
   <nav class="navbar navbar-expand-md navbar-light bg-light">
     <a class="navbar-brand p-2" href="#">
-      <small style="display: block;">
+      <small id="pular-linha">
         <b> > </b>IFSP</small>
       <b>CODELAB </b>
     </a>
@@ -37,9 +34,6 @@
             <a class="dropdown-item" href="#">Equipe</a>
           </div>
         </li>
-        <!--<li class="nav-item active">
-                                  <a class="nav-link" href="#"><span class="sr-only">(Página atual)</span></a>
-                                </li>-->
         <li class="nav-item">
           <a class="nav-link" href="#">Projetos</a>
         </li>
@@ -58,7 +52,7 @@
       </ul>
     </div>
   </nav>
-  <div class="container-fluid" style="background-color:rgb(238,238,238); border-top:1px solid black ;border-bottom: 1px solid black; font-size:20px; ">
+  <div class="container-fluid" id="titulo-layout">
     <div class="row">
       <div class="col-md-12 p-4">
         <b>LAYOUT</b>
@@ -66,32 +60,26 @@
     </div>
   </div>
 
-  <div class="container" style="height:1000px">
+  <div id="conteudo" class="container">
 
   </div>
-  <div class="container-fluid">
-    <div class="row p-4" style="background-color:rgb(238,238,238);">
+  <footer class="container-fluid">
+    <div class="row p-4" id="entre-em-contato">
       <div class="col-sm">
-        <p style="font-size: 15px">
+        <p>
           <b>Faça parte da equipe do IFSP CodeLab</b>
         </p>
       </div>
 
       <div class="col-sm ">
-        <button type="button" class="btn btn-secondary float-right" style="background-color:rgb(62,62,62);">Entre em contato</button>
+        <button id="botao-entre-em-contato" type="button" class="btn btn-secondary float-right">Entre em contato</button>
       </div>
 
     </div>
-    <div class="row" style="background-color: rgb(62,62,62); height: 150px;">
+    <div class="row" id="rodape">
 
     </div>
-
-
-  </div>
-
-
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  </footer>
   <script src="../bootstrap/js/jquery-3.3.1.slim.min.js"></script>
   <script src="../bootstrap/js/popper.min.js"></script>
   <script src="../bootstrap/js/bootstrap.min.js"></script>
