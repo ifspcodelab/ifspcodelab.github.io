@@ -1,11 +1,14 @@
-#titulo-layout{
+.titulo-pagina{
     background-color:rgb(238,238,238); 
     border-top:1px solid black ;
     border-bottom: 1px solid black;
 }
-#titulo-layout h1{
+
+
+
+.titulo-pagina h1{
     font-size:20px; 
-    margin-left: 1px;
+    text-transform: uppercase;
 }
 
 #navbar{
