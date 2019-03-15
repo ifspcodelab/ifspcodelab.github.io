@@ -1,35 +1,52 @@
-.titulo-pagina{
-    background-color:rgb(238,238,238); 
-    border-top:1px solid black ;
+.navbar-brand {
+    font-size: 17px;
+}
+
+.navbar-brand span {
+    display: block;
+    font-size: 26px;
+    font-weight: bold;
+    margin-top:-10px;
+}
+
+.titulo-pagina {
+    background-color: rgb(238, 238, 238);
+    border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
 
 
-.titulo-pagina h1{
-    font-size:20px; 
+.titulo-pagina h1 {
+    font-size: 20px;
     text-transform: uppercase;
 }
 
-#navbar{
+#navbar {
     background-color: #f8f9fa;
 }
-#pular-linha{
+
+#pular-linha {
     display: block;
 }
-#conteudo{
-    height:1000px;
+
+#conteudo {
+    height: 1000px;
 }
-#entre-em-contato{
-    background-color:rgb(238,238,238);
+
+#entre-em-contato {
+    background-color: rgb(238, 238, 238);
 }
+
 #entre-em-contato p {
     font-size: 15px;
 }
-#botao-entre-em-contato{
-    background-color:rgb(62,62,62);
+
+#botao-entre-em-contato {
+    background-color: rgb(62, 62, 62);
 }
 
-#rodape{
-    background-color: rgb(62,62,62); height: 150px;
+#rodape {
+    background-color: rgb(62, 62, 62);
+    height: 150px;
 }
