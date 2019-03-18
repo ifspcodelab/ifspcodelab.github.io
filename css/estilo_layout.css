@@ -1,33 +1,104 @@
-#titulo-layout{
-    background-color:rgb(238,238,238); border-top:1px solid black ;border-bottom: 1px solid black; font-size:20px; 
+.navbar-brand {
+    font-size: 1rem;
+    font-weight: bold;
 }
-#borda-bottom{
-    border-bottom: 1px solid black;
-}
-#pular-linha{
+.navbar-brand small{
     display: block;
 }
-#conteudo{
-    height:1000px;
-}
-#entre-em-contato{
-    background-color:rgb(238,238,238);
-}
-#entre-em-contato p {
-    font-size: 15px;
-}
-#botao-entre-em-contato{
-    background-color:rgb(62,62,62);
+
+.lead {
+    font-size: 1rem; 
 }
 
-#rodape{
-    background-color: rgb(62,62,62); height: 150px;
+.navbar-brand span {
+    display: block;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top:-10px;
 }
 
-#borda-bottom{
+.titulo-pagina {
+    background-color: rgb(238, 238, 238);
+    border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
 
-#quebra-line{
-    margin-top: 20px;
+.titulo-pagina h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
 }
+
+header {
+    background-color: #f8f9fa;
+}
+
+#pular-linha {
+    display: block;
+}
+
+#conteudo {
+    /*Terá um estilo próprio para cada página*/
+    height: 1000px;
+}
+
+#entre-em-contato {
+    background-color: rgb(238, 238, 238);
+}
+
+#entre-em-contato p {
+    font-size: 1rem;
+}
+
+#botao-entre-em-contato {
+    background-color: rgb(62, 62, 62);
+    text-transform: uppercase;
+}
+
+footer {
+    background-color: rgb(62, 62, 62);
+    height: 150px;
+}
+
+
+/*PUBLICAÇÕES*/
+.quebra-line h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .final-do-texto{
+        margin-bottom: 20px;
+    }
+    .borda-bottom{
+        border-bottom: 1px solid black;
+    }
+
+    .formatacao h2{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .formatacao h3{
+        font-size: .9rem;
+
+    }
+    .conteudo {
+        height: 180px;
+    }
+
+    .formatacao-titulo h3{
+        font-size: 1rem;
+    }
+
+    .formatacao p{
+        font-size: .9rem;
+    }
+    .botao-publicacao{
+        background-color: rgb(62, 62, 62);
+    }
+
+    .publicacao-destaque{
+   
+        background-color: #eee;
+    }
+/*FIM PUBLICAÇÕES*/
