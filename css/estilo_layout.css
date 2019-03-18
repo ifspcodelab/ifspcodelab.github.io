@@ -1,15 +1,18 @@
 .navbar-brand {
-    font-size: 17px;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.navbar-brand small{
+    display: block;
 }
 
-
 .lead {
-    font-size: 16px; 
+    font-size: 1rem; 
 }
 
 .navbar-brand span {
     display: block;
-    font-size: 26px;
+    font-size: 1.9rem;
     font-weight: bold;
     margin-top:-10px;
 }
@@ -23,11 +26,11 @@
 
 
 .titulo-pagina h1 {
-    font-size: 20px;
+    font-size: 1.5rem;
     text-transform: uppercase;
 }
 
-#navbar {
+header {
     background-color: #f8f9fa;
 }
 
@@ -36,6 +39,7 @@
 }
 
 #conteudo {
+    /*Terá um estilo próprio para cada página*/
     height: 1000px;
 }
 
@@ -44,7 +48,7 @@
 }
 
 #entre-em-contato p {
-    font-size: 15px;
+    font-size: 1rem;
 }
 
 #botao-entre-em-contato {
