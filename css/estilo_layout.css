@@ -42,6 +42,7 @@ header {
 }
 
 #entre-em-contato {
+    margin-top: 20px;
     background-color: rgb(238, 238, 238);
 }
 
@@ -69,7 +70,7 @@ footer {
     .final-do-texto{
         margin-bottom: 20px;
     }
-    .borda-bottom{
+    .borda-bottom h2{
         border-bottom: 1px solid black;
     }
 
