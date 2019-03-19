@@ -78,10 +78,10 @@ footer {
         font-size: .9rem;
 
     }
+
     .formatacao-titulo h3{
         font-size: 1rem;
     }
-
     .botao-publicacao{
         background-color: rgb(62, 62, 62);
     }
@@ -90,3 +90,5 @@ footer {
    
         background-color: #eee;
     }
+/*FIM PUBLICAÇÕES*/
+
