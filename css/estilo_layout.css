@@ -37,6 +37,7 @@ header {
 }
 
 #entre-em-contato {
+    margin-top: 20px;
     background-color: rgb(238, 238, 238);
 }
 
@@ -58,6 +59,7 @@ footer {
 /*PUBLICAÇÕES*/
 /*quebra-line -> aumenta-margem*/
 .aumenta-margem h2{
+
     margin-top: 20px;
     margin-bottom: 20px;
     }
@@ -65,7 +67,8 @@ footer {
     .final-do-texto{
         margin-bottom: 20px;
     }
-    .borda-bottom{
+
+    .borda-bottom h2{
         border-bottom: 1px solid black;
     }
 
@@ -81,7 +84,6 @@ footer {
     .formatacao-titulo h3{
         font-size: 1rem;
     }
-
     .botao-publicacao{
         background-color: rgb(62, 62, 62);
     }
@@ -90,3 +92,5 @@ footer {
    
         background-color: #eee;
     }
+/*FIM PUBLICAÇÕES*/
+
