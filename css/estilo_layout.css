@@ -23,8 +23,6 @@
     border-bottom: 1px solid black;
 }
 
-
-
 .titulo-pagina h1 {
     font-size: 1.5rem;
     text-transform: uppercase;
@@ -33,14 +31,9 @@
 header {
     background-color: #f8f9fa;
 }
-
-#pular-linha {
+/*pular-linha -> quebra-linha*/
+.quebra-linha {
     display: block;
-}
-
-#conteudo {
-    /*Terá um estilo próprio para cada página*/
-    height: 1000px;
 }
 
 #entre-em-contato {
@@ -53,9 +46,47 @@ header {
 
 #botao-entre-em-contato {
     background-color: rgb(62, 62, 62);
+    text-transform: uppercase;
 }
 
 footer {
     background-color: rgb(62, 62, 62);
     height: 150px;
 }
+
+
+/*PUBLICAÇÕES*/
+/*quebra-line -> aumenta-margem*/
+.aumenta-margem h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    
+    .final-do-texto{
+        margin-bottom: 20px;
+    }
+    .borda-bottom{
+        border-bottom: 1px solid black;
+    }
+
+    .formatacao h2{
+        font-size: 1.1rem;
+        font-weight: bold;
+    }
+
+    .formatacao h3{
+        font-size: .9rem;
+
+    }
+    .formatacao-titulo h3{
+        font-size: 1rem;
+    }
+
+    .botao-publicacao{
+        background-color: rgb(62, 62, 62);
+    }
+
+    .publicacao-destaque{
+   
+        background-color: #eee;
+    }
