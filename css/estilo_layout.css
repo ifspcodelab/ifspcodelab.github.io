@@ -55,9 +55,6 @@ footer {
     height: 150px;
 }
 
-
-/*PUBLICAÇÕES*/
-/*quebra-line -> aumenta-margem*/
 .aumenta-margem h2{
 
     margin-top: 20px;
@@ -92,5 +89,8 @@ footer {
    
         background-color: #eee;
     }
-/*FIM PUBLICAÇÕES*/
 
+.formatacao-link a h3{
+    color: black;
+    font-weight: bold;
+}
