@@ -1,0 +1,61 @@
+.navbar-brand {
+    font-size: 1rem;
+    font-weight: bold;
+}
+.navbar-brand small{
+    display: block;
+}
+
+.lead {
+    font-size: 1rem; 
+}
+
+.navbar-brand span {
+    display: block;
+    font-size: 1.9rem;
+    font-weight: bold;
+    margin-top:-10px;
+}
+
+.titulo-pagina {
+    background-color: rgb(238, 238, 238);
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+
+.titulo-pagina h1 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+header {
+    background-color: #f8f9fa;
+}
+
+#pular-linha {
+    display: block;
+}
+
+#conteudo {
+    /*Terá um estilo próprio para cada página*/
+    height: 1000px;
+}
+
+#entre-em-contato {
+    background-color: rgb(238, 238, 238);
+}
+
+#entre-em-contato p {
+    font-size: 1rem;
+}
+
+#botao-entre-em-contato {
+    background-color: rgb(62, 62, 62);
+}
+
+footer {
+    background-color: rgb(62, 62, 62);
+    height: 150px;
+}
