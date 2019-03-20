@@ -2,19 +2,20 @@
     font-size: 1rem;
     font-weight: bold;
 }
-.navbar-brand small{
+
+.navbar-brand small {
     display: block;
 }
 
 .lead {
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 .navbar-brand span {
     display: block;
     font-size: 1.9rem;
     font-weight: bold;
-    margin-top:-10px;
+    margin-top: -10px;
 }
 
 .titulo-pagina {
@@ -37,6 +38,7 @@ header {
 }
 
 #entre-em-contato {
+    margin-top: 20px;
     background-color: rgb(238, 238, 238);
 }
 
@@ -55,8 +57,6 @@ footer {
 }
 
 
-/*PUBLICAÇÕES*/
-/*quebra-line -> aumenta-margem*/
 .aumenta-margem h2{
     margin-top: 20px;
     margin-bottom: 20px;
@@ -65,7 +65,10 @@ footer {
     .final-do-texto{
         margin-bottom: 20px;
     }
-    .borda-bottom{
+
+
+    .borda-bottom h2{
+
         border-bottom: 1px solid black;
     }
 
@@ -81,7 +84,6 @@ footer {
     .formatacao-titulo h3{
         font-size: 1rem;
     }
-
     .botao-publicacao{
         background-color: rgb(62, 62, 62);
     }
@@ -90,3 +92,44 @@ footer {
    
         background-color: #eee;
     }
+
+
+.formatacao-link a h3{
+    color: black;
+    font-weight: bold;
+}
+
+.img-membro{
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:367px) {
+    #entre-em-contato p {
+        font-size: 0.81rem;
+        text-align: center;
+    }
+    #botao-entre-em-contato {
+        width: 100%
+    }
+}
+
+@media (min-width:368px) and (max-width:575px) {
+    #entre-em-contato p {
+        font-size: 1.01rem;
+        text-align: center;
+    }
+    #botao-entre-em-contato {
+        width: 100%
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    #entre-em-contato p {
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
