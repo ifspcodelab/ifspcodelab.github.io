@@ -2,19 +2,20 @@
     font-size: 1rem;
     font-weight: bold;
 }
-.navbar-brand small{
+
+.navbar-brand small {
     display: block;
 }
 
 .lead {
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 .navbar-brand span {
     display: block;
     font-size: 1.9rem;
     font-weight: bold;
-    margin-top:-10px;
+    margin-top: -10px;
 }
 
 .titulo-pagina {
@@ -31,7 +32,7 @@
 header {
     background-color: #f8f9fa;
 }
-/*pular-linha -> quebra-linha*/
+
 .quebra-linha {
     display: block;
 }
@@ -54,104 +55,42 @@ footer {
     height: 150px;
 }
 
-
-/*PUBLICAÇÕES*/
-/*quebra-line -> aumenta-margem*/
-.aumenta-margem h2{
+.aumenta-margem h2 {
     margin-top: 20px;
     margin-bottom: 20px;
-    }
-    
-    .final-do-texto{
-        margin-bottom: 20px;
-    }
-    .borda-bottom{
-        border-bottom: 1px solid black;
-    }
+}
 
-    .formatacao h2{
-        font-size: 1.1rem;
-        font-weight: bold;
-    }
+.final-do-texto {
+    margin-bottom: 20px;
+}
 
-    .formatacao h3{
-        font-size: .9rem;
+.borda-bottom {
+    border-bottom: 1px solid black;
+}
 
-    }
+.formatacao h2 {
+    font-size: 1.1rem;
+    font-weight: bold;
+}
 
-    .formatacao-titulo h3{
-        font-size: 1rem;
-    }
-    .botao-publicacao{
-        background-color: rgb(62, 62, 62);
-    }
+.formatacao h3 {
+    font-size: .9rem;
 
-    .publicacao-destaque{
-   
-        background-color: #eee;
-    }
-/*FIM PUBLICAÇÕES*/
+}
 
+.formatacao-titulo h3 {
+    font-size: 1rem;
+}
 
+.botao-publicacao {
+    background-color: rgb(62, 62, 62);
+}
 
+.publicacao-destaque {
 
+    background-color: #eee;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.preenchimento{
+.preenchimento {
     background-color: #eee;
 }
