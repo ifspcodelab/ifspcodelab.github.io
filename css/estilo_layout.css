@@ -2,19 +2,20 @@
     font-size: 1rem;
     font-weight: bold;
 }
-.navbar-brand small{
+
+.navbar-brand small {
     display: block;
 }
 
 .lead {
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
 .navbar-brand span {
     display: block;
     font-size: 1.9rem;
     font-weight: bold;
-    margin-top:-10px;
+    margin-top: -10px;
 }
 
 .titulo-pagina {
@@ -22,8 +23,6 @@
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 }
-
-
 
 .titulo-pagina h1 {
     font-size: 1.5rem;
@@ -58,4 +57,31 @@ header {
 footer {
     background-color: rgb(62, 62, 62);
     height: 150px;
+}
+
+@media (max-width:367px) {
+    #entre-em-contato p {
+        font-size: 0.81rem;
+        text-align: center;
+    }
+    #botao-entre-em-contato {
+        width: 100%
+    }
+}
+
+@media (min-width:368px) and (max-width:575px) {
+    #entre-em-contato p {
+        font-size: 1.01rem;
+        text-align: center;
+    }
+    #botao-entre-em-contato {
+        width: 100%
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    #entre-em-contato p {
+        font-size: 1rem;
+        text-align: center;
+    }
 }
