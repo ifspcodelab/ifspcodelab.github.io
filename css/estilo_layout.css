@@ -75,22 +75,27 @@ footer {
 
 .formatacao h3 {
     font-size: .9rem;
-
 }
 
 .formatacao-titulo h3 {
     font-size: 1rem;
 }
 
-.botao-publicacao {
+#botao-publicacao {
     background-color: rgb(62, 62, 62);
 }
-
+.botao-publicacao:hover{
+    background-color: rgb(62, 62, 62);
+}
 .publicacao-destaque {
 
     background-color: #eee;
 }
 
-.preenchimento {
+.preenchimento a{
     background-color: #eee;
+}
+
+.negrito{
+    font-weight: bold;
 }
