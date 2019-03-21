@@ -83,7 +83,7 @@ main h3 {
 
 }
 
-main-titulo h3 {
+.formatacao-titulo h3 {
     font-size: 1rem;
 }
 
@@ -97,7 +97,7 @@ main-titulo h3 {
 }
 
 
-main-link a h3 {
+.formatacao-link a h3 {
     color: black;
     font-weight: bold;
 }
