@@ -71,12 +71,12 @@ footer {
     border-bottom: 1px solid black;
 }
 
-.formatacao h2 {
+main h2 {
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-.formatacao h3 {
+main h3 {
     font-size: .9rem;
 
 }
@@ -135,6 +135,6 @@ footer {
     }
 }
 
-.preenchimento {
+.preenchimento a {
     background-color: #eee;
 }
