@@ -80,12 +80,71 @@ main p {
     margin-top: 20px;
 }
 
-@media (min-width:1209px) {
-    .teste p {
+.aumenta-margem-bottom {
+    margin-bottom: 20px;
+}
+
+#botao-ver-noticia a {
+    background-color: rgb(62, 62, 62);
+}
+
+
+@media (max-width:1209px) and (min-width:576px) {
+
+    .altera-font-size p {
         font-size: .7rem;
+    }
+
+    .altera-font-size h2 {
+        font-size: .8rem;
+    }
+
+    .altera-font-size a {
+        font-size: .7rem;
+    }
+
+    .aumenta-margem-left-right {
+        margin-left: -7px;
+        margin-right: -7px;
+    }
+
+    .aumenta-margem-left {
+        margin-left: -14px;
+
+    }
+
+    .aumenta-margem-right {
+        margin-right: -14px;
     }
 }
 
-#botao-ver-noticia {
-    background-color: rgb(62, 62, 62);
+
+@media (max-width:575px) {
+
+    .altera-font-size p {
+        font-size: .7rem;
+    }
+
+    .altera-font-size h2 {
+        font-size: .8rem;
+    }
+
+    .altera-font-size a {
+        font-size: .7rem;
+    }
+
+    .aumenta-margem-left-right {
+        margin-left: -7px;
+        margin-right: -7px;
+    }
+
+    .aumenta-margem-left {
+        margin-left: -14px;
+
+    }
+
+    .aumenta-margem-right {
+        margin-right: -14px;
+    }
+
 }
