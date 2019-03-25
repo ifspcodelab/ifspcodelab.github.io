@@ -38,11 +38,6 @@ header {
     display: block;
 }
 
-#conteudo {
-    /*Terá um estilo próprio para cada página*/
-    height: 1000px;
-}
-
 #entre-em-contato {
     background-color: rgb(238, 238, 238);
 }
@@ -58,4 +53,20 @@ header {
 footer {
     background-color: rgb(62, 62, 62);
     height: 150px;
+}
+
+
+.imagem-principal{
+    
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.texto-principal p{
+    font-family: verdana;
+    text-align: justify;
+}
+
+.texto-principal{
+    margin-bottom: 30px;
 }
