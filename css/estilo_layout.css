@@ -92,8 +92,16 @@ footer {
     background-color: #eee;
 }
 
-.preenchimento a{
+.preenchimento li{
     background-color: #eee;
+}
+
+.preenchimento a{
+    color: black;
+}
+
+.preenchimento a:hover {
+    text-decoration: none;
 }
 
 .negrito{
