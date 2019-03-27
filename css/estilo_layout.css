@@ -70,40 +70,29 @@ footer {
 }
 
 
-
-
 main h2 {
-
     font-size: 1.1rem;
     font-weight: bold;
 }
 
 
-
 main h3 {
     font-size: .9rem;
+
 }
 
 .formatacao-titulo h3 {
     font-size: 1rem;
 }
 
-
-#botao-publicacao {
-    background-color: rgb(62, 62, 62);
-}
-.botao-publicacao:hover{
+#botao-publicacao, .botao-publicacao, .botao-publicacao:hover{
     background-color: rgb(62, 62, 62);
 }
 
-.botao-publicacao {
-    background-color: rgb(62, 62, 62);
-}
 .publicacao-destaque {
 
     background-color: #eee;
 }
-
 
 .preenchimento li{
     background-color: #eee;
@@ -125,7 +114,6 @@ main h3 {
 .formatacao-link a h3 {
     color: black;
     font-weight: bold;
-
 
 .formatacao-link a h3 {
     color: black;
@@ -166,6 +154,4 @@ main h3 {
         font-size: 1rem;
         text-align: center;
     }
-
 }
-
