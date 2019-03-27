@@ -33,7 +33,6 @@ header {
     background-color: #f8f9fa;
 }
 
-/*pular-linha -> quebra-linha*/
 .quebra-linha {
     display: block;
 }
@@ -57,14 +56,19 @@ footer {
     height: 150px;
 }
 
-
 .aumenta-margem h2 {
+
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
 .final-do-texto {
     margin-bottom: 20px;
+}
+
+
+.borda-bottom h2 {
+    border-bottom: 1px solid black;
 }
 
 
@@ -77,6 +81,7 @@ main h2 {
     font-size: 1.1rem;
     font-weight: bold;
 }
+
 
 main h3 {
     font-size: .9rem;
@@ -95,6 +100,11 @@ main h3 {
 
     background-color: #eee;
 }
+
+
+.formatacao-link a h3 {
+    color: black;
+    font-weight: bold;
 
 
 .formatacao-link a h3 {
@@ -136,4 +146,5 @@ main h3 {
         font-size: 1rem;
         text-align: center;
     }
+
 }
