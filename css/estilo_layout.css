@@ -38,6 +38,7 @@ header {
 }
 
 #entre-em-contato {
+    margin-top: 20px;
     background-color: rgb(238, 238, 238);
 }
 
@@ -64,16 +65,22 @@ footer {
     margin-bottom: 20px;
 }
 
-.borda-bottom {
+.borda-bottom h2 {
     border-bottom: 1px solid black;
 }
 
-.formatacao h2 {
+
+
+
+main h2 {
+
     font-size: 1.1rem;
     font-weight: bold;
 }
 
-.formatacao h3 {
+
+
+main h3 {
     font-size: .9rem;
 }
 
@@ -81,16 +88,22 @@ footer {
     font-size: 1rem;
 }
 
+
 #botao-publicacao {
     background-color: rgb(62, 62, 62);
 }
 .botao-publicacao:hover{
     background-color: rgb(62, 62, 62);
 }
+
+.botao-publicacao {
+    background-color: rgb(62, 62, 62);
+}
 .publicacao-destaque {
 
     background-color: #eee;
 }
+
 
 .preenchimento li{
     background-color: #eee;
@@ -107,3 +120,52 @@ footer {
 .negrito{
     font-weight: bold;
 }
+
+
+.formatacao-link a h3 {
+    color: black;
+    font-weight: bold;
+
+
+.formatacao-link a h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.img-membro {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:367px) {
+    #entre-em-contato p {
+        font-size: 0.81rem;
+        text-align: center;
+    }
+
+    #botao-entre-em-contato {
+        width: 100%
+    }
+}
+
+@media (min-width:368px) and (max-width:575px) {
+    #entre-em-contato p {
+        font-size: 1.01rem;
+        text-align: center;
+    }
+
+    #botao-entre-em-contato {
+        width: 100%
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    #entre-em-contato p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+}
+
