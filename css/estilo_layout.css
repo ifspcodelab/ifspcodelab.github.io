@@ -33,7 +33,6 @@ header {
     background-color: #f8f9fa;
 }
 
-/*pular-linha -> quebra-linha*/
 .quebra-linha {
     display: block;
 }
@@ -58,7 +57,6 @@ footer {
 }
 
 .aumenta-margem h2 {
-
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -71,10 +69,12 @@ footer {
     border-bottom: 1px solid black;
 }
 
+
 main h2 {
     font-size: 1.1rem;
     font-weight: bold;
 }
+
 
 main h3 {
     font-size: .9rem;
@@ -85,7 +85,7 @@ main h3 {
     font-size: 1rem;
 }
 
-.botao-publicacao {
+#botao-publicacao, .botao-publicacao, .botao-publicacao:hover{
     background-color: rgb(62, 62, 62);
 }
 
@@ -93,6 +93,27 @@ main h3 {
 
     background-color: #eee;
 }
+
+.preenchimento li{
+    background-color: #eee;
+}
+
+.preenchimento a{
+    color: black;
+}
+
+.preenchimento a:hover {
+    text-decoration: none;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+
+.formatacao-link a h3 {
+    color: black;
+    font-weight: bold;
 
 .formatacao-link a h3 {
     color: black;
@@ -133,8 +154,4 @@ main h3 {
         font-size: 1rem;
         text-align: center;
     }
-}
-
-.preenchimento a {
-    background-color: #eee;
 }
