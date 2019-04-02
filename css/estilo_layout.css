@@ -37,6 +37,13 @@ header {
     display: block;
 }
 
+<<<<<<< HEAD
+#conteudo {
+    height: 1000px;
+}
+
+=======
+>>>>>>> master
 #entre-em-contato {
     margin-top: 20px;
     background-color: rgb(238, 238, 238);
@@ -56,7 +63,11 @@ footer {
     height: 150px;
 }
 
+<<<<<<< HEAD
+.aumenta-margem {
+=======
 .aumenta-margem h2 {
+>>>>>>> master
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -65,17 +76,97 @@ footer {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
+=======
 .borda-bottom h2 {
     border-bottom: 1px solid black;
 }
 
 
 
+>>>>>>> master
 main h2 {
     font-size: 1.1rem;
     font-weight: bold;
 }
 
+<<<<<<< HEAD
+main p {
+    font-size: .9rem;
+}
+
+.aumenta-margem-top {
+    margin-top: 20px;
+}
+
+.aumenta-margem-bottom {
+    margin-bottom: 20px;
+}
+
+#botao-ver-noticia a {
+    background-color: rgb(62, 62, 62);
+}
+
+
+@media (max-width:1209px) and (min-width:576px) {
+
+    .altera-font-size p {
+        font-size: .7rem;
+    }
+
+    .altera-font-size h2 {
+        font-size: .8rem;
+    }
+
+    .altera-font-size a {
+        font-size: .7rem;
+    }
+
+    .aumenta-margem-left-right {
+        margin-left: -7px;
+        margin-right: -7px;
+    }
+
+    .aumenta-margem-left {
+        margin-left: -14px;
+
+    }
+
+    .aumenta-margem-right {
+        margin-right: -14px;
+    }
+}
+
+
+@media (max-width:575px) {
+
+    .altera-font-size p {
+        font-size: .7rem;
+    }
+
+    .altera-font-size h2 {
+        font-size: .8rem;
+    }
+
+    .altera-font-size a {
+        font-size: .7rem;
+    }
+
+    .aumenta-margem-left-right {
+        margin-left: -7px;
+        margin-right: -7px;
+    }
+
+    .aumenta-margem-left {
+        margin-left: -14px;
+
+    }
+
+    .aumenta-margem-right {
+        margin-right: -14px;
+    }
+
+=======
 
 
 main h3 {
@@ -161,4 +252,5 @@ main h3 {
 .texto-imagem {
     text-align: center;
 
+>>>>>>> master
 }
