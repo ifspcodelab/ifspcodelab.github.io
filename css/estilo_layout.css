@@ -224,7 +224,6 @@ main h3 {
         font-size: 0.81rem;
         text-align: center;
     }
-
     #botao-entre-em-contato {
         width: 100%
     }
@@ -235,7 +234,6 @@ main h3 {
         font-size: 1.01rem;
         text-align: center;
     }
-
     #botao-entre-em-contato {
         width: 100%
     }
@@ -249,6 +247,9 @@ main h3 {
 
 }
 
+.formatacao-link a:hover{
+    text-decoration: none;
+}
 .texto-imagem {
     text-align: center;
 }
