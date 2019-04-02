@@ -33,15 +33,19 @@ header {
     background-color: #f8f9fa;
 }
 
-#pular-linha {
+.quebra-linha {
     display: block;
 }
 
+<<<<<<< HEAD
 #conteudo {
     height: 1000px;
 }
 
+=======
+>>>>>>> master
 #entre-em-contato {
+    margin-top: 20px;
     background-color: rgb(238, 238, 238);
 }
 
@@ -51,6 +55,7 @@ header {
 
 #botao-entre-em-contato {
     background-color: rgb(62, 62, 62);
+    text-transform: uppercase;
 }
 
 footer {
@@ -58,7 +63,11 @@ footer {
     height: 150px;
 }
 
+<<<<<<< HEAD
 .aumenta-margem {
+=======
+.aumenta-margem h2 {
+>>>>>>> master
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -67,11 +76,21 @@ footer {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
+=======
+.borda-bottom h2 {
+    border-bottom: 1px solid black;
+}
+
+
+
+>>>>>>> master
 main h2 {
     font-size: 1.1rem;
     font-weight: bold;
 }
 
+<<<<<<< HEAD
 main p {
     font-size: .9rem;
 }
@@ -147,4 +166,91 @@ main p {
         margin-right: -14px;
     }
 
+=======
+
+
+main h3 {
+    font-size: .9rem;
+
+}
+
+.formatacao-titulo h3 {
+    font-size: 1rem;
+}
+
+
+
+#botao-publicacao, .botao-publicacao, .botao-publicacao:hover{
+
+    background-color: rgb(62, 62, 62);
+}
+
+.publicacao-destaque {
+
+    background-color: #eee;
+}
+
+
+.preenchimento li{
+    background-color: #eee;
+}
+
+.preenchimento a{
+    color: black;
+}
+
+.preenchimento a:hover {
+    text-decoration: none;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.formatacao-link a h3 {
+    color: black;
+    font-weight: bold;
+}
+
+.img-membro {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width:367px) {
+    #entre-em-contato p {
+        font-size: 0.81rem;
+        text-align: center;
+    }
+
+    #botao-entre-em-contato {
+        width: 100%
+    }
+}
+
+@media (min-width:368px) and (max-width:575px) {
+    #entre-em-contato p {
+        font-size: 1.01rem;
+        text-align: center;
+    }
+
+    #botao-entre-em-contato {
+        width: 100%
+    }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+    #entre-em-contato p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+}
+
+.texto-imagem {
+    text-align: center;
+
+>>>>>>> master
 }
