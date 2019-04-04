@@ -1,4 +1,5 @@
 ---
+layout: membro-equipe
 nome: Vinicius
 funcao: Programador
 link: /membros/vinicius.html

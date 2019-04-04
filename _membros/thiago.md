@@ -1,4 +1,5 @@
 ---
+layout: membro-equipe
 nome: Thiago
 funcao: Programador
 link: /membros/thiago.html
