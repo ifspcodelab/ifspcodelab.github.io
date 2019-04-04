@@ -2,6 +2,7 @@
 layout: membro-equipe
 nome: Thiago
 funcao: Programador
+titulo: Colaborador
 link: /membros/thiago.html
 imagem: ../assets/images/icone.png
 ---
