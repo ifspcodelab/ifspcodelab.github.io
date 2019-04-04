@@ -1,7 +1,7 @@
 ---
 nome: Thiago
 funcao: Programador
-link: /membros/membro-equipe3.html
+link: /membros/thiago.html
 imagem: ../assets/images/icone.png
 ---
 Integrante do Laboratório de Desenvolvimento de software - IFSP CodeLab

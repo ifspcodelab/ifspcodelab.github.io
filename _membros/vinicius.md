@@ -1,7 +1,7 @@
 ---
 nome: Vinicius
 funcao: Programador
-link: /membros/membro-equipe4.html
+link: /membros/vinicius.html
 imagem: ../assets/images/icone.png
 ---
 Integrante do Laboratório de Desenvolvimento de software - IFSP CodeLab
