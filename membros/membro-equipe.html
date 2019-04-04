@@ -1,0 +1,74 @@
+---
+
+---
+
+<!doctype html>
+<html lang="pt-br">
+
+{% include head.html %}
+<body>
+  {% include navbar.html %}
+  <article>
+    <div class="titulo-pagina">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-4 col-sm-12">
+            <img src="../assets/images/icone.png" class="rounded-circle mx-auto d-block img-membro">
+          </div>
+          <div class="col-lg-9 col-md-8 col-sm-12 p-4">
+            <h1>{{page.nome}} - {{page.funcao}}</h1>
+            <p class="lead">{{ content }}</p>
+            <img src="../assets/images/icone3.png" class="float-left p-1">
+            <img src="../assets/images/icone3.png" class="float-left p-1">
+            <img src="../assets/images/icone3.png" class="float-left p-1">
+            <img src="../assets/images/icone3.png" class="float-left p-1">
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container aumenta-margem borda-bottom formatacao-link">
+      <main class="row">
+        <div class="col-md-12">
+          <h2>Projetos</h2>
+        </div>
+      </main>
+      <main class="row">
+        <div class="col-md-4 col-sm-6">
+          <div class="text-center">
+            <img src="../assets/images/icone2.png" class="img-fluid rounded img-thumbnail">
+            <a href="#">
+              <h3>Pojeto de Software X</h3>
+            </a>
+            <h3>Aplicação Web</h3>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6">
+          <div class="text-center">
+            <img src="../assets/images/icone2.png" class="img-fluid rounded img-thumbnail">
+            <a href="#">
+              <h3>Pojeto de Software Y</h3>
+            </a>
+            <h3>Aplicação Web</h3>
+          </div>
+        </div>
+      </main>
+      <main class="row">
+        <div class="col-md-12">
+          <h2>Publicações</h2>
+        </div>
+      </main>
+      <main class="row final-do-texto">
+        <div class="col-md-12">
+          <div class="list-group preenchimento">
+            <a href="#" class="list-group-item list-group-item-action">Dapibus ac facilisis in</a>
+            <a href="#" class="list-group-item list-group-item-action">Morbi leo risus</a>
+            <a href="#" class="list-group-item list-group-item-action">Porta ac consectetur ac</a>
+          </div>
+        </div>
+      </main>
+    </div>
+  </article>
+  {% include footer.html %}
+</body>
+
+</html>

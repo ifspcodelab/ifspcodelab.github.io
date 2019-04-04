@@ -13,13 +13,11 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-3 col-md-4 col-sm-12">
-            <img src="../assets/images/icone.png" class="rounded-circle mx-auto d-block img-membro">
+            <img src="{{ page.imagem }}" class="rounded-circle mx-auto d-block img-membro">
           </div>
           <div class="col-lg-9 col-md-8 col-sm-12 p-4">
-            <h1>NOME DO MEMBRO</h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Unde, porro commodi consequatur cum nesciunt, dignissimos officia vero eos
-              dolores facilis voluptates enim natus doloribus iusto recusandae, repudiandae ad cumque labore!</p>
+            <h1>{{ page.nome }} - {{ page.funcao }}</h1>
+            <p class="lead">{{ content }}</p>
             <img src="../assets/images/icone3.png" class="float-left p-1">
             <img src="../assets/images/icone3.png" class="float-left p-1">
             <img src="../assets/images/icone3.png" class="float-left p-1">
