@@ -1,5 +1,6 @@
 ---
 layout: membro-equipe
+nick: Jerson
 nome: Jefferson
 funcao: Programador
 titulo: Colaborador

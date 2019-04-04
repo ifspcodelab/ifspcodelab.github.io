@@ -1,5 +1,6 @@
 ---
 layout: membro-equipe
+nick: Matheus
 nome: Matheus
 funcao: Programador
 titulo: Colaborador

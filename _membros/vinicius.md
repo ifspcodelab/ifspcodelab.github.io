@@ -1,6 +1,7 @@
 ---
 layout: membro-equipe
-nome: Vinicius
+nick: Vinicius
+nome: Vinicius Eustaquio Cortez
 funcao: Programador
 titulo: Colaborador
 link: /membros/vinicius.html
