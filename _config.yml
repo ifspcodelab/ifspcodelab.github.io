@@ -4,3 +4,6 @@ collections:
 
   artigos:
     output: true
+
+  noticias:
+    output: true
