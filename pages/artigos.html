@@ -3,84 +3,31 @@ layout: layout
 titulo: artigos
 subtitulo:
 ---
+{% for artigo in site.artigos %}
+
 <div class="row">
   <div class="col-lg-3 col-md-4 col-sm-6 p-3">
-    <a href="#"><img src="../assets/images/icone.png" class="rounded mx-auto d-block img-membro aumenta-margem"></a>
+    <a href="#"><img src="{{ artigo.imagem }}" class="rounded mx-auto d-block img-membro aumenta-margem"></a>
   </div>
   <div class="col-lg-9 col-md-8 col-sm-6 p-4">
     <div class="row">
       <div class="col preenchimento">
-        <h1><a href="#">Artigo 01</a></h1>
+        <h1><a href="{{ artigo.url }}">Artigo 01</a></h1>
       </div>
     </div>
     <div class="row">
       <div class="col">
         <time class="data" datetime="2017-02-14"></time>
-        <p class="negrito">12/01/2019</p>
+        <p class="negrito">{{ artigo.data }}</p>
       </div>
     </div>
     <div class="row">
       <div class="col preenchimento">
         <a href="#">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Deserunt repellat eveniet tentur, in dicta omnis nemo modi vel
-            illum libero iusto quos deleniti sunt eligendi, animi velit maxime est.</p>
+          <p> {{ artigo.sub-titulo }} </p>
         </a>
       </div>
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="col-lg-3 col-md-4 col-sm-6 p-3">
-    <a href="#"><img src="../assets/images/icone.png" class="rounded mx-auto d-block img-membro aumenta-margem"></a>
-  </div>
-  <div class="col-lg-9 col-md-8 col-sm-6 p-4">
-    <div class="row">
-      <div class="col preenchimento">
-        <h1><a href="#">Artigo 02</a></h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <time class="data" datetime="2017-02-14"></time>
-        <p class="negrito">12/01/2019</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col preenchimento">
-        <a href="#">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Deserunt repellat eveniet tentur, in dicta omnis nemo modi vel
-            illum libero iusto quos deleniti sunt eligendi, animi velit maxime est.</p>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
-<div class="row">
-  <div class="col-lg-3 col-md-4 col-sm-6 p-3">
-    <a href="#"><img src="../assets/images/icone.png" class="rounded mx-auto d-block img-membro aumenta-margem"></a>
-  </div>
-  <div class="col-lg-9 col-md-8 col-sm-6 p-4">
-    <div class="row">
-      <div class="col preenchimento">
-        <h1><a href="#">Artigo 03</a></h1>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <time class="data" datetime="2017-02-14"></time>
-        <p class="negrito">12/01/2019</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col preenchimento">
-        <a href="#">
-          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-            Deserunt repellat eveniet tentur, in dicta omnis nemo modi vel
-            illum libero iusto quos deleniti sunt eligendi, animi velit maxime est.</p>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+{% endfor %}
