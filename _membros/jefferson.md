@@ -1,7 +1,7 @@
 ---
 layout: membro-equipe
-nick: Jerson
-nome: Jefferson
+nick: Jefferson
+nome: Jefferson Souza Santos
 funcao: Programador
 titulo: Colaborador
 link: /membros/jefferson.html
