@@ -1,5 +1,6 @@
 ---
 layout: membro-equipe
+nick: Thiago
 nome: Thiago
 funcao: Programador
 titulo: Colaborador

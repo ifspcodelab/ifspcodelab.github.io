@@ -1,7 +1,7 @@
----
-layout: layout
-titulo: Equipe
-subtitulo:
+--- 
+layout: layout 
+titulo: Equipe 
+subtitulo: 
 ---
 <div class="row">
   <div class="col-md-12 p-4">
@@ -18,49 +18,38 @@ subtitulo:
     </div>
   </div>
   <div class="row">
+    {% for membro in site.membros %} 
+    {% if membro.titulo == "Coordenador" %}
     <div class="col-md-3 col-sm-6">
       <div class="text-center">
-        <a href="#"><img src="../assets/images/icone.png" class="img-equipe rounded-circle"></a>
-        <a href="#">
-          <h3>Lorem ipsum dolor</h3>
+        <a href="{{ membro.link }}">
+          <img src="{{ membro.imagem }}" class="img-equipe rounded-circle">
+          <h3>{{ membro.nick }}</h3>
         </a>
-        <h3>Professor do IFSP</h3>
+        <h3>{{ membro.funcao }}</h3>
       </div>
     </div>
-    <div class="col-md-3 col-sm-6">
-      <div class="text-center">
-        <a href="#"><img src="../assets/images/icone.png" class="img-equipe rounded-circle"></a>
-        <a href="#">
-          <h3>Lorem ipsum dolor</h3>
-        </a>
-        <h3>Professor do IFSP</h3>
-      </div>
-    </div>
-    <div class="col-md-3 col-sm-6">
-      <div class="text-center">
-        <a href="#"><img src="../assets/images/icone.png" class="img-equipe rounded-circle"></a>
-        <a href="#">
-          <h3>Lorem ipsum dolor</h3>
-        </a>
-        <h3>Professor do IFSP</h3>
-      </div>
-    </div>
+    {% endif %} 
+    {% endfor %}
+
   </div>
   <div class="row">
     <h2>Colaboradores</h2>
   </div>
   <div class="row">
-    {% for membro in site.membros %}
-      {% if membro.titulo == "Colaborador" %}
-      <div class="col-md-3 col-sm-6">
-        <div class="text-center">
-          <a href="{{ membro.link }}"><img src="{{ membro.imagem }}" class="img-equipe rounded-circle"></a>
-          <h3><a href="{{ membro.link }}">{{ membro.nome }}</a></h3>
-          <h3>{{ membro.funcao }}</h3>
-        </div>
+    {% for membro in site.membros %} {% if membro.titulo == "Colaborador" %}
+    <div class="col-md col-sm">
+      <div class="text-center">
+        <a href="{{ membro.link }}">
+          <img src="{{ membro.imagem }}" class="img-equipe rounded-circle">
+        
+        <h3>
+          {{ membro.nick }}
+        </h3></a>
+        <h3>{{ membro.funcao }}</h3>
       </div>
-      {% endif %}
-    {% endfor %}
+    </div>
+    {% endif %} {% endfor %}
   </div>
 
 </div>

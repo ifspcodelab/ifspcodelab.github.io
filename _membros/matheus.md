@@ -1,6 +1,7 @@
 ---
 layout: membro-equipe
-nome: Matheus
+nick: Matheus
+nome: Matheus Reis Luz
 funcao: Programador
 titulo: Colaborador
 link: /membros/matheus.html
