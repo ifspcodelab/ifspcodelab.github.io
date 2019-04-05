@@ -8,6 +8,9 @@ subtitulo: Lorem
   <div id="botao-ver-noticia" class="aumenta-margem-top">
     <!-- Coloque o conteúdo aqui -->
     <main class="row">
+        {% assign f = site.noticias | reverse  %}
+        {% assign k = f.size %}
+
       <div class="col-lg col-md-6 col-sm-12 aumenta-margem-bottom">
         <div class="card">
           <img class="card-img-top img-fluid" src="../assets/images/icone2.png" alt="Imagem de capa do card">
