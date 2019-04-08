@@ -2,7 +2,7 @@
 layout: detalhe-noticia
 titulo: IFSP CodeLab 3
 introducao: Inicio das atividades do Laboratório de Desenvolvimento de Software - IFSP CodeLab 
-data: 20190218
+data: 20190220
 link: /noticias/noticia2.html
 imagem: ../assets/images/icone.png
 ---
