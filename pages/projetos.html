@@ -5,6 +5,8 @@ subtitulo:
 ---
 
 <div class="row">
+        {% assign f = site.projetos | reverse  %}
+        {% assign k = f.size %}
     <div class="col-lg-12 p-4">
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Quisquam laboriosam omnis fugiat iure quae recusandae deserunt
@@ -14,40 +16,19 @@ subtitulo:
     </div>
 </div>
 <div class="row formatacao">
+    {% for i in (0..f.size) %}
+        {% if i == f.size %}
+            {% break %}
+        {% else %}    
     <div class="col-sm-6 col-md-4 p-4 d-flex">
-        <div class="card">
-            <img class="card-img-top" src="../assets/images/padrao.png" alt="imagem do card">
+        <a href="{{f[i].url}}" class="card">
+            <img class="card-img-top" src="{{f[i].imagem}}" alt="imagem do card">
             <div class="card-body flex-fill">
-                <h2 class="card-text">Projeto de Software X</h2>
-                <p>Aplicação Web</p>
+                <h2 class="card-text">{{ f[i].titulo }}</h2>
+                <p>{{ f[i].subtitulo }}</p>
             </div>
-        </div>
+        </a>
     </div>
-    <div class="col-sm-6 col-md-4 p-4 d-flex">
-        <div class="card">
-            <img class="card-img-top" src="../assets/images/padrao.png" alt="imagem do card">
-            <div class="card-body flex-fill">
-                <h2 class="card-text">Aplicação Mobile para Controle de Y</h2>
-                <p>Aplicação Web</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-4 p-4 d-flex">
-        <div class="card">
-            <img class="card-img-top" src="../assets/images/padrao.png" alt="imagem do card">
-            <div class="card-body flex-fill">
-                <h2 class="card-text">Sistema para gerenciamento de ABC</h2>
-                <p>Aplicação Web</p>
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6 col-md-4 p-4 d-flex">
-        <div class="card">
-            <img class="card-img-top" src="../assets/images/padrao.png" alt="imagem do card">
-            <div class="card-body flex-fill">
-                <h2 class="card-text">Projeto de Software X</h2>
-                <p>Projeto X</p>
-            </div>
-        </div>
-    </div>
+        {% endif %}
+    {% endfor %}
 </div>
