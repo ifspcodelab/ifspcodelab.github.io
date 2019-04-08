@@ -23,6 +23,9 @@ subtitulo: Lorem
       <div class="col-md">
         <main class="row">
             {% for i in (1..2) %}
+            {% if i == f.size %}
+            {% break %}
+          {% else %}
           <div class="col-md-6 col-sm-6 col-6">
             <div class="card">
               <img class="card-img-top img-fluid" src="../assets/images/icone2.png" alt="Imagem de capa do card">
@@ -33,6 +36,7 @@ subtitulo: Lorem
               </div>
             </div>
           </div>
+          {% endif %}
           {% endfor %}
         </main>
         <main class="row aumenta-margem-top altera-font-size ">
