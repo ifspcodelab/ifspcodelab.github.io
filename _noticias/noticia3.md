@@ -1,9 +1,9 @@
 ---
 layout: detalhe-noticia
-titulo: Um dia vermelho 3
-introducao: As atividades do Laboratório de Desenvolvimento de Software - IFSP CodeLab houve uma chacina!
-data: 20190216
-link: /membros/noticia1.html
+titulo: IFSP CodeLab 3
+introducao: Inicio das atividades do Laboratório de Desenvolvimento de Software - IFSP CodeLab 
+data: 20190218
+link: /noticias/noticia2.html
 imagem: ../assets/images/icone.png
 ---
-As atividades do Laboratório de Desenvolvimento de Software - IFSP CodeLab, no dia 14/02/2019, foi marcado uma matança generalizada dos estudantes da monitoria.
+Lorem ipsum dolor sit amet, consectetur adipisicing elit.
