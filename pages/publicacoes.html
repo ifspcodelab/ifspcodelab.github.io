@@ -22,33 +22,20 @@ subtitulo:
       </div>
     </div>
   </div>
+  {% for publicacao in site.data.publicacoes %}
   <div class="row">
     <div class="col-md-12">
-      <h2 class="borda-bottom">2020</h2>
+      <h2 class="borda-bottom">{{publicacao.data}}</h2>
     </div>
   </div>
   <div class="row">
     <div class="col-md-12 final-do-texto">
       <ul class="list-group preenchimento">
-        <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-        <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-        <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-        <li class="list-group-item"><a href="#">Cras justo odio</a></li>
+        {% for g in publicacao.grupo %}
+        <li class="list-group-item"><a href="{{ g.link }}">{{ g.nome }}</a></li>
+        {% endfor %}
       </ul>
     </div>
   </div>
-  <div class="row">
-    <div class="col-md-12">
-      <h2 class="borda-bottom">2019</h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12 final-do-texto">
-      <ul class="list-group preenchimento">
-        <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-        <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-        <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-      </ul>
-    </div>
-  </div>
+  {% endfor %}
 </div>
