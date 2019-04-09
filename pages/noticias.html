@@ -8,49 +8,54 @@ subtitulo: Lorem
   <div id="botao-ver-noticia" class="aumenta-margem-top">
     <!-- Coloque o conteúdo aqui -->
     <main class="row">
-        {% assign f = site.noticias | reverse  %}
+        {% assign f = site.noticias | sort: 'data' %}
+        {% assign f = f | reverse %}
         {% assign k = f.size %}
-
       <div class="col-lg col-md-6 col-sm-12 aumenta-margem-bottom">
         <div class="card">
           <img class="card-img-top img-fluid" src="../assets/images/icone2.png" alt="Imagem de capa do card">
           <div class="card-body">
             <h2 class="card-title">{{ f[0].titulo }}</h2>
             <p class="card-text">{{ f[0].content }}</p>
-            <a href="#" class="btn btn-primary">Ver notícia</a>
+            <a href="{{ f[0].link }}" class="btn btn-primary">Ver notícia</a>
           </div>
         </div>
       </div>
-
       <div class="col-md">
         <main class="row">
             {% for i in (1..2) %}
+            {% if i == f.size %}
+            {% break %}
+          {% else %}
           <div class="col-md-6 col-sm-6 col-6">
             <div class="card">
               <img class="card-img-top img-fluid" src="../assets/images/icone2.png" alt="Imagem de capa do card">
               <div class="card-body">
                 <h2 class="card-title">{{ f[i].titulo }}</h2>
                 <p class="card-text">{{ f[i].content }}</p>
-                <a href="#" class="btn btn-primary">Ver notícia</a>
+                <a href="{{ f[i].link }}" class="btn btn-primary">Ver notícia</a>
               </div>
             </div>
           </div>
+          {% endif %}
           {% endfor %}
         </main>
         <main class="row aumenta-margem-top altera-font-size ">
             {% for i in (3..f.size) %}
+            {% if i == f.size %}
+            {% break %}
+          {% else %}
           <div class="col-md-4 col-sm-4 col-4">
             <div class="card aumenta-margem-right">
               <img class="card-img-top img-fluid" src="../assets/images/icone2.png" alt="Imagem de capa do card">
               <div class="card-body p-2">
                 <h2 class="card-title">{{ f[i].titulo }}</h2>
                     <p >{{ f[i].content }}</p>
-                    <a href="#" class="btn btn-primary">Ver notícia</a>
+                    <a href="{{ f[i].link }}" class="btn btn-primary">Ver notícia</a>
               </div>
             </div>
           </div>
-
-
+          {% endif %}
           {% endfor %}
         </main>
       </div>
