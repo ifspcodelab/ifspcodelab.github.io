@@ -20,14 +20,16 @@ subtitulo:
         {% if i == f.size %}
             {% break %}
         {% else %}    
-    <div class="col-sm-6 col-md-4 p-4 d-flex">
-        <a href="{{f[i].url}}" class="card">
+    <div  class="col-sm-6 col-md-4 p-4 d-flex">
+        <div  class="card">
+            <a href="{{f[i].url}}">
             <img class="card-img-top" src="{{f[i].imagem}}" alt="imagem do card">
             <div class="card-body flex-fill">
                 <h2 class="card-text">{{ f[i].titulo }}</h2>
                 <p>{{ f[i].subtitulo }}</p>
             </div>
         </a>
+        </div>
     </div>
         {% endif %}
     {% endfor %}
