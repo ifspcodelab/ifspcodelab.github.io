@@ -4,3 +4,16 @@ titulo: tutoriais
 ---
 
 
+{% for tutorial in site.tutoriais %}
+
+<div class="row">
+    <div class="card text-center" style="width: 18rem;">
+  <div class="card-body">
+    <h2 class="card-title">{{ tutorial.titulo }}</h2>
+    <p class="card-text">{{ tutorial.descricao }}</p>
+    <a href="{{ tutorial.url }}" class="btn btn-primary bg-dark ">Ver mais do tutorial</a>
+  </div>
+</div>
+</div>
+
+{% endfor %}
