@@ -10,4 +10,7 @@ collections:
   
   projetos:
     output: true
+    
+  tutoriais:
+    output: true
 
