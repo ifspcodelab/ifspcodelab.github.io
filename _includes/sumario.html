@@ -1,0 +1,17 @@
+
+
+<div id="sumario" class="card col-md-4">
+    {% for assunto in page.assuntos %}
+        {% if assunto.link %}
+        <a href="{{ assunto.link }}"> {{ assunto.principal }} </a>
+        {% else %}
+        <p> {{assunto.principal }}</p>
+        <ul>
+            {% for titulo in assunto.titulos %}
+                <a href="{{ titulo.link }}"> {{ titulo.nome }} </a>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    {% endfor %}
+
+</div>
