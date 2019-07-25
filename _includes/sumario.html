@@ -1,20 +1,20 @@
-<div class="col-md-4">
-    
-</div>
 
-<div id="sumario" class="card col-md-4">
-    <h2> Sumário </h2>
-    {% for assunto in page.assuntos %}
-        {% if assunto.link %}
-            <a class="sumario-titulo" href="{{ assunto.link }}"> {{ assunto.principal }} </a>
-        {% else %}
-        <p class="sumario-titulo">   {{ assunto.principal }}</p>
-        <ul>
-            {% for titulo in assunto.titulos %}
-                <a  class="sumario-subtitulo" href="{{ titulo.link }}"> {{ titulo.name }} </a>
-            {% endfor %}
-        </ul>
-        {% endif %}
-    {% endfor %}
+  <nav id="sumario" class="navbar navbar-dark bg-light">
+    <nav class="nav nav-pills flex-column">
+        <h2> Sumário </h2>
+        {% for assunto in page.assuntos %}
+            {% if assunto.link %}
+                <a href="{{ assunto.link }}" class="nav-link">{{ assunto.principal }}</a>
 
-</div>
+            {% else %}
+                <span class="nav-link">{{ assunto.principal }}</span>
+                {% for titulo in assunto.titulos %}
+                    <a href="{{ titulo.link }}" class="nav-link ml-3 my-1">{{titulo.name}}</a>
+                {% endfor %}
+
+            {% endif %}
+            
+
+        {% endfor %}
+    </nav>
+  </nav>
