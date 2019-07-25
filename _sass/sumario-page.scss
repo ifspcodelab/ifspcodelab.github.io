@@ -1,5 +1,10 @@
+body{
+    --height-screen: 500px;
+}
 #sumario{
+    
     overflow: auto;
+    height: var(--height-screen);
      a{
          text-decoration: none; 
          color: black;
@@ -18,7 +23,7 @@
 }
 .page{
     position: relative;
-    height: 400px;
+    height: var(--height-screen);
     overflow: auto;
     th{
         border-bottom: 1px solid black;
@@ -28,7 +33,8 @@
     }
     img{
         height: auto;
-        width: 100%;
+        width: 96%;
+        margin: 3%;
     }
  }
 
