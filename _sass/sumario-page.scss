@@ -1,5 +1,5 @@
 #sumario{
-    height: auto;
+    overflow: auto;
      a{
          text-decoration: none; 
          color: black;
@@ -25,6 +25,10 @@
     }
     table{
         margin: 50px;
+    }
+    img{
+        height: auto;
+        width: 100%;
     }
  }
 
