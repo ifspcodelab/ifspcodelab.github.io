@@ -7,6 +7,7 @@
      p{
          text-align: justify;
      }
+     
 }
 
 .sumario-titulo{
@@ -15,9 +16,14 @@
 .sumario-subtitulo{
     text-transform: capitalize;
 }
-@media (min-width: 768px){
-    #sumario{
-        position: fixed;
-        width: 25%;
-    }
+.page{
+    position: relative;
+    height: 720px;
+    overflow: auto;
+ }
+
+.nav-pills .nav-link.active, .nav-pills .show  {
+    
+    background-color: #3e3e3e;
+    color: #fff!important;
 }
