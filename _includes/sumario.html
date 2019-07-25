@@ -6,7 +6,7 @@
     <h2> Sumário </h2>
     {% for assunto in page.assuntos %}
         {% if assunto.link %}
-            <a  href="{{ assunto.link }}"> {{ assunto.principal }} </a>
+            <a class="sumario-titulo" href="{{ assunto.link }}"> {{ assunto.principal }} </a>
         {% else %}
         <p class="sumario-titulo">   {{ assunto.principal }}</p>
         <ul>
