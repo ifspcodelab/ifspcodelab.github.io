@@ -11,7 +11,7 @@
         <p class="sumario-titulo">   {{ assunto.principal }}</p>
         <ul>
             {% for titulo in assunto.titulos %}
-                <a  class="sumario-subtitulo" href="{{ titulo.link }}"> {{ titulo.nome }} </a>
+                <a  class="sumario-subtitulo" href="{{ titulo.link }}"> {{ titulo.name }} </a>
             {% endfor %}
         </ul>
         {% endif %}
