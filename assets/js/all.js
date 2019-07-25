@@ -10,4 +10,8 @@
 $('body').scrollspy({ target: '#sumario' })
 $('[data-spy="scroll"]').each(function () {
     var $spy = $(this).scrollspy('refresh')
-  })
+})
+
+document.querySelectorAll("img").forEach((element)=>{
+  element.onclick = ()=>{window.location = element.src}
+})
