@@ -18,8 +18,14 @@
 }
 .page{
     position: relative;
-    height: 720px;
+    height: 400px;
     overflow: auto;
+    th{
+        border-bottom: 1px solid black;
+    }
+    table{
+        margin: 50px;
+    }
  }
 
 .nav-pills .nav-link.active, .nav-pills .show  {
