@@ -3,19 +3,18 @@ layout: layout
 titulo: tutoriais
 ---
 
-
-{% for tutorial in site.tutoriais %}
-
-<div class="row">
-<div class="col-lg-10 col-md col-sm mx-auto aumenta-margem-bottom">
-        <div class="card">
-          <div class="card-body">
-            <h2 class="card-title">{{ tutorial.titulo-principal }}</h2>
-            <p class="card-text">{{tutorial.conteudo}}</p>
-            <a href="{{ tutorial.url }}" class="btn btn-primary bg-dark ">Seguir para o tutorial </a>
+<div class= "aumenta-margem-top">
+  {% for tutorial in site.tutoriais %}
+    <div class="row">
+    <div class="col-lg-10 col-md col-sm mx-auto aumenta-margem-bottom">
+            <div class="card">
+              <div class="card-body">
+                <h2 class="card-title">{{ tutorial.titulo-principal }}</h2>
+                <p class="card-text">{{tutorial.conteudo}}</p>
+                <a href="{{ tutorial.url }}" class="btn btn-primary bg-dark ">Seguir para o tutorial </a>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
+    </div>
+  {% endfor %}
 </div>
-
-{% endfor %}
