@@ -267,3 +267,12 @@ main h3 {
     color: black;
     text-decoration: none;
 }
+body{
+    --height-screen: 63.2vh;
+    height: 100vh;
+}
+
+.page{
+    overflow: auto;
+    height: var(--height-screen);
+}
