@@ -1,0 +1,13 @@
+collections:
+  membros:
+    output: true
+
+  artigos:
+    output: true
+
+  noticias:
+    output: true
+  
+  projetos:
+    output: true
+

@@ -1,233 +1,70 @@
-<!doctype html>
-<html lang="pt-br">
-
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/estilo_layout.css">
-  <title>Equipe</title>
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand " href="#">
-          >IFSP
-          <span>CODELAB</span>
+--- 
+layout: layout 
+titulo: Equipe 
+subtitulo: 
+---
+<div class="row">
+  <div class="col-md-12 p-4">
+    <h1>Nossa Equipe</h1>
+    <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+  </div>
+</div>
+</div>
+</div>
+<div class="container formatacao aumenta-margem borda-bottom formatacao-link">
+  <div class="row">
+    <div class="col-md-12">
+      <h2>Cordenação</h2>
+    </div>
+  </div>
+  <div class="row">
+    {% for membro in site.membros %} 
+    {% if membro.titulo == "Coordenador" %}
+    <div class="col-md-3 col-sm-6">
+      <div class="text-center">
+        <a href="{{ membro.link }}">
+          <img src="{{ membro.imagem }}" class="img-equipe rounded-circle">
+          <h3>{{ membro.nick }}</h3>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav  ml-auto  ">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                O laboratório
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Missão, Visão e Valores</a>
-                <a class="dropdown-item" href="#">Publicações</a>
-                <a class="dropdown-item" href="#">Equipe</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projetos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Parcerias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Notícias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artigos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contatos</a>
-            </li>
-          </ul>
-          <!--fim lista -->
-        </div>
-        <!--Fim de dropdown-->
-      </nav>
-    </div>
-    <!--Fim de container -->
-  </header>
-  <article>
-    <div class="titulo-pagina">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 p-4">
-            <h1>Nossa Equipe</h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-          </div>
-        </div>
+        <h3>{{ membro.funcao }}</h3>
       </div>
     </div>
-    <div class="container formatacao aumenta-margem borda-bottom formatacao-link">
-      <div class="row">
-        <div class="col-md-12">
-          <h2>Cordenação</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Professor do IFSP</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Professor do IFSP</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Professor do IFSP</h3>
-          </div>
-        </div>
-      </div>
-      <h2>Estudantes</h2>
-      <div id="quebra-line" class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Aluno do IFSP</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Aluno do IFSP</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#"></a><a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Aluno do IFSP</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Aluno do IFSP</h3>
-          </div>
-        </div>
-      </div>
-      <h2>Colaboradores</h2>
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Aluno do IFSP</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Aluno do IFSP</h3>
-          </div>
-        </div>
-      </div>
-      <h2>Ex-Integrantes</h2>
-      <div class="row">
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Aluno do IFSP</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Aluno do IFSP</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Aluno do IFSP</h3>
-          </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="text-center">
-            <a href="#"><img src="../images/icone.png" class="img-fluid rounded-circle"></a>
-            <a href="#">
-              <h3>Lorem ipsum dolor</h3>
-            </a>
-            <h3>Aluno do IFSP</h3>
-          </div>
-        </div>
-      </div>
-    </div>
-  </article>
-  <aside id="entre-em-contato">
-    <div class="container">
-      <div class="row p-4">
-        <div class="col-sm">
-          <p>
-            <b>Faça parte da equipe do IFSP CodeLab</b>
-          </p>
-        </div>
-        <div class="col-sm ">
-          <button id="botao-entre-em-contato" type="button" class="btn btn-primary float-right">Entre em
-            contato</button>
-        </div>
-      </div>
-    </div>
-  </aside>
-  <footer>
-    <div class="container">
-      <div class="row">
-      </div>
-    </div>
-  </footer>
-  <script src="../bootstrap/js/jquery-3.3.1.slim.min.js"></script>
-  <script src="../bootstrap/js/popper.min.js"></script>
-  <script src="../bootstrap/js/bootstrap.min.js"></script>
-</body>
+    {% endif %} 
+    {% endfor %}
 
-</html>
+  </div>
+  <div class="row">
+    <h2>Colaboradores</h2>
+  </div>
+  <div class="row">
+    {% for membro in site.membros %} {% if membro.titulo == "Colaborador" %}
+    <div class="col-md-3 col-sm-6">
+      <div class="text-center">
+        <a href="{{ membro.link }}">
+          <img src="{{ membro.imagem }}" class="img-equipe rounded-circle">
+        
+        <h3>
+          {{ membro.nick }}
+        </h3></a>
+        <h3>{{ membro.funcao }}</h3>
+      </div>
+    </div>
+    {% endif %} {% endfor %}
+  </div>
+
+</div>
+
+
+<!--
+<h1>Equ</h1>
+
+<ul>
+  {% for membro in site.membros %}
+  <li>
+    <h2><a href="{{ membro.link }}">{{ membro.nome }}</a></h2>
+    <h3>{{ membro.funcao }}</h3>
+    <p>{{ membro.content | markdownify }}</p>
+  </li>
+  {% endfor %}
+</ul>
+-->

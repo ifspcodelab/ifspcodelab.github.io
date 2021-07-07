@@ -1,149 +1,41 @@
-<!doctype html>
-<html lang="pt-br">
+---
+layout: layout
+titulo: Publicação
+subtitulo:
+---
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css">
-  <link rel="stylesheet" href="../css/estilo_layout.css">
-  <link rel="stylesheet" href="../css/publicacoes.css">
-  <title>Publicações</title>
-</head>
-
-<body>
-  <header>
-    <div class="container">
-      <nav class="navbar navbar-expand-md navbar-light bg-light">
-        <a class="navbar-brand " href="#">
-          >IFSP
-          <span>CODELAB</span>
-        </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav  ml-auto  ">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                O laboratório
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Missão, Visão e Valores</a>
-                <a class="dropdown-item" href="#">Publicações</a>
-                <a class="dropdown-item" href="#">Equipe</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Projetos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Parcerias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Notícias</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Artigos</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contatos</a>
-            </li>
-          </ul>
-          <!--fim lista -->
-        </div>
-        <!--Fim de dropdown-->
-      </nav>
+<div class=" formatacao aumenta-margem">
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="borda-bottom">PUBLICAÇÃO EM DESTAQUE</h2>
     </div>
-    <!--Fim de container -->
-  </header>
-  <article>
-    <div class="titulo-pagina">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12 p-4">
-            <h1>Publicações</h1>
-            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-          </div>
-        </div>
+  </div>
+  <div class="row formatacao-titulo">
+    <div class="col-md-12">
+      <div class="w-100 p-3 publicacao-destaque clearfix">
+        <h3 class="negrito">Título da Publicação em Destaque</h3>
+        <p><b>Abstract:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aut rem, quia fugiat hic,
+          assumenda tempore eaque labore eius ut modi molestias quisquam dicta. Rem mollitia itaque soluta officia
+          cupiditate?</p>
+        <a id="botao-publicacao" href="#" class="btn btn-primary float-right">LER PUBLICAÇÃO</a>
+
       </div>
     </div>
-    <!-- Coloque o conteúdo aqui -->
-    <div class="container formatacao aumenta-margem">
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="borda-bottom">PUBLICAÇÃO EM DESTAQUE</h2>
-        </div>
-      </div>
-      <div class="row formatacao-titulo">
-        <div class="col-md-12">
-          <div class="w-100 p-3 publicacao-destaque clearfix">
-            <h3 class="negrito">Título da Publicação em Destaque</h3>
-            <p><b>Abstract:</b> Lorem ipsum dolor sit amet consectetur adipisicing elit. Est aut rem, quia fugiat hic,
-              assumenda tempore eaque labore eius ut modi molestias quisquam dicta. Rem mollitia itaque soluta officia
-              cupiditate?</p>
-            <a id="botao-publicacao" href="#" class="btn btn-primary float-right">LER PUBLICAÇÃO</a>
-
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="borda-bottom">2020</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 final-do-texto">
-          <ul class="list-group preenchimento">
-            <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-            <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-            <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-            <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="borda-bottom">2019</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-md-12 final-do-texto">
-          <ul class="list-group preenchimento">
-            <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-            <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-            <li class="list-group-item"><a href="#">Cras justo odio</a></li>
-          </ul>
-        </div>
-      </div>
+  </div>
+  {% for publicacao in site.data.publicacoes %}
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="borda-bottom">{{publicacao.data}}</h2>
     </div>
-  </article>
-  <aside id="entre-em-contato">
-    <div class="container">
-      <div class="row p-4">
-        <div class="col-sm">
-          <p>
-            <b>Faça parte da equipe do IFSP CodeLab</b>
-          </p>
-        </div>
-        <div class="col-sm ">
-          <button id="botao-entre-em-contato" type="button" class="btn btn-primary float-right">Entre em
-            contato</button>
-        </div>
-      </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 final-do-texto">
+      <ul class="list-group preenchimento">
+        {% for g in publicacao.grupo %}
+        <li class="list-group-item"><a href="{{ g.link }}">{{ g.nome }}</a></li>
+        {% endfor %}
+      </ul>
     </div>
-  </aside>
-  <footer>
-    <div class="container">
-      <div class="row">
-      </div>
-    </div>
-  </footer>
-  <script src="../bootstrap/js/jquery-3.3.1.slim.min.js"></script>
-  <script src="../bootstrap/js/popper.min.js"></script>
-  <script src="../bootstrap/js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+  </div>
+  {% endfor %}
+</div>

@@ -1,27 +1,23 @@
 ---
 layout: layout
-titulo: artigo
-subtitulo:
 ---
 
 <div class="container-fluid">
     <div class="row">
         <div class="col p-3">
-            <img src="../assets/images/icone-centro.png" class="rounded mx-auto d-block img-recursiva">
+            <img src="../assets/images/icone-centro.png" class="objectImage rounded mx-auto d-block img-recursiva">
         </div>
     </div>
     <div class="container">
         <div class="row">
             <div class="col">
                 <time class="data" datetime="2017-02-14"></time>
-                <p class="negrito">12/01/2019</p>
+                <p class="negrito">{{ page.data }}</p>
             </div>
         </div>
         <div class="row">
             <div class="col preenchimento">
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                    Deserunt repellat eveniet tentur, in dicta omnis nemo modi vel
-                    illum libero iusto quos deleniti sunt eligendi, animi velit maxime est.</p>
+                {{ content }}
             </div>
         </div>
     </div>
